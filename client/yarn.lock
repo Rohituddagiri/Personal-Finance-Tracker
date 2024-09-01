@@ -201,10 +201,25 @@
     std-env "^3.7.0"
     swr "^2.2.0"
 
+"@clerk/themes@^2.1.25":
+  version "2.1.25"
+  resolved "https://registry.yarnpkg.com/@clerk/themes/-/themes-2.1.25.tgz#aba298051409bdce2cb047d473ac6ac650f073ab"
+  integrity sha512-Cx5h6cmslRYbmF415xpUzmAjhcWwwC9gyjAWMCVlQOyQmzfn8X1w6vc0qdE4HaxTUf2XoZr6pQF5xdSdWXZFtQ==
+  dependencies:
+    "@clerk/types" "4.17.0"
+    tslib "2.4.1"
+
 "@clerk/types@4.14.0":
   version "4.14.0"
   resolved "https://registry.yarnpkg.com/@clerk/types/-/types-4.14.0.tgz#2215d3a8337f984a401c5a819b793de622d223a5"
   integrity sha512-d3MUcWtXGTOS7QYCRVrOra7NYAGRiNWlb+Ke2KMSb+Z3lea6WlKeHa18uVnAkIVxBXtHlzdU2kwW0PrHkx8j9Q==
+  dependencies:
+    csstype "3.1.1"
+
+"@clerk/types@4.17.0":
+  version "4.17.0"
+  resolved "https://registry.yarnpkg.com/@clerk/types/-/types-4.17.0.tgz#b60604abbce0556ff79a0a691343a505654ccc78"
+  integrity sha512-/GksPLzWLCTbZ1ZNTUs4CMze89XUQNGNy9KJOP56JUaxCy+9iHbIsDyia6zicHXhH8/oIj9SrZv/nlEPNUFkoA==
   dependencies:
     csstype "3.1.1"
 
@@ -564,6 +579,13 @@
   version "18.3.0"
   resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-18.3.0.tgz#0cbc818755d87066ab6ca74fbedb2547d74a82b0"
   integrity sha512-EhwApuTmMBmXuFOikhQLIBUn6uFg81SwLMOAUgodJF14SOBOCMdU04gDoYi0WOJJHD144TL32z4yDqCW3dnkQg==
+  dependencies:
+    "@types/react" "*"
+
+"@types/react-table@^7.7.20":
+  version "7.7.20"
+  resolved "https://registry.yarnpkg.com/@types/react-table/-/react-table-7.7.20.tgz#2f68e70ca7a703ad8011a8da55c38482f0eb4314"
+  integrity sha512-ahMp4pmjVlnExxNwxyaDrFgmKxSbPwU23sGQw2gJK4EhCvnvmib2s/O/+y1dfV57dXOwpr2plfyBol+vEHbi2w==
   dependencies:
     "@types/react" "*"
 
@@ -1430,6 +1452,11 @@ react-router@6.26.1:
   integrity sha512-kIwJveZNwp7teQRI5QmwWo39A5bXRyqpH0COKKmPnyD2vBvDwgFXSqDUYtt1h+FEyfnE8eXr7oe0MxRzVwCcvQ==
   dependencies:
     "@remix-run/router" "1.19.1"
+
+react-table@^7.8.0:
+  version "7.8.0"
+  resolved "https://registry.yarnpkg.com/react-table/-/react-table-7.8.0.tgz#07858c01c1718c09f7f1aed7034fcfd7bda907d2"
+  integrity sha512-hNaz4ygkZO4bESeFfnfOft73iBUj8K5oKi1EcSHPAibEydfsX2MyU6Z8KCr3mv3C9Kqqh71U+DhZkFvibbnPbA==
 
 react@^18.3.1:
   version "18.3.1"
